@@ -1,0 +1,14 @@
+{
+  "name": "dandrhi_backend",
+  "version": "0.0.1",
+  "description": "backend services for my wedding website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duncan iaria",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.1.1"
+  }
+}
