@@ -7,6 +7,7 @@ module.exports = function(context, req) {
       body: 'Hello ' + (req.query.name || req.body.name),
     };
   } else {
+    context.log('version: ', process.version);
     context.res = {
       status: 400,
       body: 'Please pass a name on the query string or in the request body',
